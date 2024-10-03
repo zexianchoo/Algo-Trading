@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  go-app:
+    stop_grace_period: 30s
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: go-app-image
+    environment:
+      - THREAD_LIMIT=2
+    volumes:
+      - $PWD/data:/app/data
+      - $PWD/parsed_data:/app/parsed_data
+    restart: unless-stopped

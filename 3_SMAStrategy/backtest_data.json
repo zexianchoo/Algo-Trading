@@ -1,0 +1,15 @@
+[
+    {
+        "backtest_date": "2024-03-27",
+        "unique_id": "005057",
+        "repeat_count": 8,
+        "instance_name": "MMGrid",
+        "start_date": "01-30-2019",
+        "end_date": "01-30-2019",
+        "pnl": {
+            "sharpe_ratio": -3978549654551256.5
+        },
+        "fill": {},
+        "orders": {}
+    }
+]
